@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+ <html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+<body style="background-color:#bfd7ff;">
+<link rel="stylesheet" href="buttons.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+ <body>
+   <a href="coolcat1.html"><img src="logo.png" class="float" height=225px width=300px></a>
+     <div class="dropdown">
+       <button class="btn">Explore<i class="fa fa-caret-down"></i>
+       </button>
+       <div class="dropdown-content">
+         <a href="https://www.allrecipes.com/recipes/15957/everyday-cooking/kosher/"target="_blank">Kosher Recipes</a>
+         <a href="https://www.tasteofhome.com/collection/favorite-mediterranean-recipes/view-all/"target="_blank">Meditteranean Recipes</a>
+         <a href="https://www.foodnetwork.com/topics/vegetarian-recipes"target="_blank">Vegetarian Recipes</a>
+       </div>
+     </div>
+   <div class="dropdown">
+   <button class="btn"><i class="fa fa-question"></i>Tips<i class="fa fa-caret-down"></i></button>
+
+     <div class="dropdown-content">
+       <a href="cattips.html">Substitutions</a>
+       <a href="FAQ.html">FAQ</a>
+       <a href="https://muut.com/coolcat/"target="_blank">Forums</a>
+     </div>
+   </div>
+
+     <a href="catabout.html"><button class="buttn"><i class="fa fa-info"></i> About </button></a>
+
+     <a href="catsaved.html"><button class="buttn"><i class="fa fa-star"></i> Saved</button></a>
+
+ <center><h1>CoolCat Recipes</h1></center>
+
+   <style>
+
+   body {
+     font family: "Lato", sans-serif;
+   }
+
+   .sidenav {
+     width: 130px;
+     position: fixed;
+     z-index: 1;
+     top: 20px;
+     right: 25px;
+     background: #eee;
+     overflow-x: hidden;
+     padding: 8px 0;
+   }
+
+   .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+   .result {
+     /* color:  #d742f4; */
+     font-style: Arial;
+     padding: 40px;
+
+
+   }
+    img {
+      padding: 5px;
+      padding-top: 0px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: purple;
+
+
+    }
+
+    .text {
+      text-align: left;
+      font-size: 12px;
+    }
+
+    .hyperlink {
+      color: green;
+      font-size: 12px;
+      target: _blank;
+    }
+
+   </style>
+ </head>
+
+ <body>
+   <div class="sidenav">
+     <a href="#Saved"><u>Saved</u></a>
+     <div id="waffles"></div>
+   </div>
+   <div class="main>">
+ </div>
+
+<h2>Searched</h2>
+<!-- Chocolate Shoofly Pie-->
+ <div class = "result"> <div class = "previewimg"><img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-NMcIah5KwB2PDhrQ4xkuEtdTCFdB0WmunGShhBUyyl_oLgRaJFe9EPY"></div><a href = "https://cooking.nytimes.com/recipes/1017018-shoofly-pie">Chocolate Shoofly Pie</a>
+ <div class = "hyperlink">https://cooking.nytimes.com/recipes/1017018-shoofly-pie</div>
+ <p >Shoofly pie is often thought of as the cake baked in a pie shell, or so wrote Jean Hewitt, The New York Times food writer who offered this recipe in the paper in ...</p></div>
+
+<button class="btn" onclick="moveFunc({'name': 'Chocolate Shoofly Pie - cooking.newyorktimes.com', 'url': 'https://cooking.nytimes.com/recipes/1017018-shoofly-pie'})">save recipe</button><!-- clicking makes move function-->
+<!-- Skillet apple pie-->
+ <div class = "result"> <div class = "previewimg"><img src ="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_AYLGIl4Hz3PC4hidHdJyvo2HI-sWx1aZ8vWkcABT3ut8J65VvIwKngs"></div><a href = "https://www.foodnetwork.com/recipes/trisha-yearwood/skillet-apple-pie-with-cinnamon-whipped-cream-2580944">Skillet Apple Pie with Cinnamon Whipped Cream Recipe | Trisha...</a>
+<div class = "hyperlink">https://www.foodnetwork.com/recipes/trisha-yearwood/skillet-apple-pie-with-cinnamon-whipped-cream-2580944</div>
+ <p >Skillet Apple Pie: 1/2 cup (1 stick) unsalted butter. 1 cup light brown sugar. 2 refrigerated rolled pie crusts, such as Pillsbury. One 21-ounce can apple pie filling...</p></div>
+
+<button class="btn" onclick="moveFunc({'name': 'Skillet Apple Pie with Cinnamon Whipped Cream - FoodNetwork.com', 'url':'https://www.foodnetwork.com/recipes/trisha-yearwood/skillet-apple-pie-with-cinnamon-whipped-cream-2580944'})">save recipe</button><!-- clicking makes move function-->
+<!-- pecan pie-->
+<div class = "result"> <div class = "previewimg"><img src = "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnHC0X7QCo56d5Bxt8tJ7C6-sGu89J2zPg0DDsQ1E9zcP5qPIVjA2I3OU"></div><a href = "https://www.epicurious.com/recipes/food/views/old-fashioned-pecan-pie-356072">Old-Fashioned Pecan Pie recipe | Epicurious.com</a>
+<div class = "hyperlink">https://www.epicurious.com/recipes/food/views/old-fashioned-pecan-pie- 356072</div>
+<p>It's impossible to go wrong with pecan pie. Especially one that is really loaded with nuts, has a little verve from orange zest, and isn't overly sweet—exactly like ...</p></div>
+
+<button class="btn" onclick="moveFunc({'name': 'Old-Fashioned Pecan Pie - Epicurious.com', 'url':'https://www.epicurious.com/recipes/food/views/old-fashioned-pecan-pie'})">save recipe</button><!-- clicking makes move function-->
+<!-- key lime pie-->
+<div class = "result"> <div class = "previewimg"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXhpLRMFi6VRKnxld7kQo1X-P18ASN_EWXoX20Yb-xQJ03t5Sq9R54Y2c"></div><a href = "https://www.allrecipes.com/recipe/15880/key-lime-pie-vii/">Key Lime Pie VII Recipe - Allrecipes.com</a>
+<div class = "hyperlink">https://www.allrecipes.com/recipe/15880/key-lime-pie-vii/</div>
+<p>This key lime pie filling has sour cream and sweetened condensed milk and is perfect for your favorite homemade graham cracker crust.</p></div>
+<button class="btn" onclick="moveFunc({'name': 'Key Lime Pie VII - Allrecipes.com', 'url': 'https://www.allrecipes.com/recipe/15880/key-lime-pie-vii/'})">save recipe</button><!-- clicking makes move function-->
+
+<!-- peach cobbler-->
+ <div class = "result"> <div class = "previewimg"><img src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfMY3xJuFRGMRB0zkLeUDRLTbL4T8Jf-Bg1hNoUid-lbEsbEm_Ltll4BBZ"></div><a href = "https://www.foodnetwork.com/.../peach-cobbler-recipe-1914266">Peach Cobbler Recipe | Paula Deen | Food Network</a>
+ <div class = "hyperlink">https://www.foodnetwork.com/.../peach-cobbler-recipe-1914266</div>
+<p>For an easy Southern-inspired dessert, bake Paula Deen's classic Peach Cobbler recipe from Food Network.</p></div>
+
+<button class="btn" onclick="moveFunc({'name': 'Peach Cobbler - Food Network', url: 'https://www.foodnetwork.com/.../peach-cobbler-recipe-1914266'})">save recipe</button><!-- clicking makes move function-->
+
+<script src="saved.js"></script><!-- script with move function-->
+ </body>
+
+ </html>
